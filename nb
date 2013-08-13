@@ -1,0 +1,15 @@
+<html>
+<body>
+<p id="demo">Click the button to see how slece function works in javascript....</p>
+<button onclick="username()">click to slice</button>
+<script>
+function username()
+{
+var str ="monaragla";
+var n=str.replace(str.slice(3),"...");
+var x=document.getElementById("demo");
+x.innerHTML=n;
+}
+</script>
+</body>
+</html>
